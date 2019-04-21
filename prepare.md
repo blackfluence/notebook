@@ -2,7 +2,11 @@
 
 Paper
 
+LanczosNet: Multi-Scale Deep Graph Convolutional Networks
 
+Predict then Propagate: Graph Neural Networks meet Personalized PageRank
+
+GeniePath: Graph Neural Networks with Adaptive Receptive Paths
 
 ------
 
