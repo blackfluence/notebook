@@ -37,3 +37,5 @@ GCN
 Resource
 
 [Euler 系统介绍](https://github.com/alibaba/euler/wiki/%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D)
+
+[How Powerful are GNN blog](http://tkipf.github.io/graph-convolutional-networks/)
