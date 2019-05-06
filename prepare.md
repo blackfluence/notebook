@@ -8,22 +8,23 @@
 
 实验表明，增加多层hidden  layer，性能不会有影响。
 
+![architecture](pic\structure.jpg)
 
 **广度**
 
-$$h_i^{(tmp)}=tanh({W_i^{(t)}}^T\sum_{j \in N(i) \bigcup \{i\} } \alpha(h_i^{(t)}, h_j^{(t)}) \cdot h_j^{(t)})$$
+$h_i^{(tmp)}=tanh({W_i^{(t)}}^T\sum_{j \in N(i) \bigcup \{i\} } \alpha(h_i^{(t)}, h_j^{(t)}) \cdot h_j^{(t)})$
 
-$$\alpha(x,y)=softmax_y(v^Ttanh(W_s^T x+W_d^Ty))$$
+$\alpha(x,y)=softmax_y(v^Ttanh(W_s^T x+W_d^Ty))$
 
 **深度**
 
-$$h_i^{(t+1)}=o_i \bigodot tanh(C_i^{(t+1)})$$
+$h_i^{(t+1)}=o_i \bigodot tanh(C_i^{(t+1)})$
 
-$$i_i = \sigma({W_i^{(t)}}^T h_i^{(tmp)})$$
-$$f_i = \sigma({W_f^{(t)}}^T h_i^{(tmp)})$$
-$$o_i = \sigma({W_o^{(t)}}^T h_i^{(tmp)})$$
-$$\tilde{C}=tanh({W_c^{(t)}}^Th_i^{(tmp)})$$
-$$C_i^{(t+1)}=f_i \bigodot C_i^{(t)}+ i_i \bigodot \tilde{C}$$
+$i_i = \sigma({W_i^{(t)}}^T h_i^{(tmp)})$
+$f_i = \sigma({W_f^{(t)}}^T h_i^{(tmp)})$
+$o_i = \sigma({W_o^{(t)}}^T h_i^{(tmp)})$
+$\tilde{C}=tanh({W_c^{(t)}}^Th_i^{(tmp)})$
+$C_i^{(t+1)}=f_i \bigodot C_i^{(t)}+ i_i \bigodot \tilde{C}$
 
 #### Predict then Propagate: Graph Neural Networks meet Personalized PageRank
 
