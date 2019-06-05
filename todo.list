@@ -6,3 +6,17 @@ https://arxiv.org/pdf/1701.01325.pdf
 'Multi-Task Learning for Sequence Tagging An Empirical Study.pdf'
 'Semi-Supervised Sequence Modeling with Cross-View Training.pdf'
 'Semi-supervised sequence tagging with bidirectional language models.pdf'
+
+A Fast, Extensible Toolkit for Sequence Modeling
+Handling Noisy Labels for Robustly Learning from Self-Training Data for Low-Resource Sequence Labeling
+Better, Faster, Stronger Sequence Tagging Constituent Parsers
+Target-oriented Opinion Words Extraction with Target-fused Neural Sequence Labeling
+Learning Task-Specific Representations in Multi-Task Learning for Sequence Labeling
+Linguistically-Informed Specificity and Semantic Plausibility for Dialogue Generation
+Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification
+Abstractive Summarization of Reddit Posts with Multi-level Memory Networks
+Fast Prototyping a Dialogue Comprehension System for Nurse-Patient Conversations on Symptom Monitoring
+Disentangling Language and Knowledge in Task-Oriented Dialogs
+Neural Self-Training through Spaced Repetition
+Rethinking Action Spaces for Reinforcement Learning in End-to-end Dialog Agents with Latent Variable Models
+Differentiable Sequence-to-Sequence-to-Sequence Autoencoder for Unsupervised Abstractive Sentence Compression
