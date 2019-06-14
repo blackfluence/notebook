@@ -20,3 +20,8 @@ Disentangling Language and Knowledge in Task-Oriented Dialogs
 Neural Self-Training through Spaced Repetition
 Rethinking Action Spaces for Reinforcement Learning in End-to-end Dialog Agents with Latent Variable Models
 Differentiable Sequence-to-Sequence-to-Sequence Autoencoder for Unsupervised Abstractive Sentence Compression
+
+keyword: slot filling intent classification  joint / multi-task
+'Slot-Gated Modeling for Joint Slot Filling and Intent Prediction.pdf'
+'Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling.pdf'
+'Joint Multiple Intent Detection and Slot Labeling for Goal-Oriented Dialog.pdf'
