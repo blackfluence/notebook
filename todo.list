@@ -25,3 +25,5 @@ keyword: slot filling intent classification  joint / multi-task
 'Slot-Gated Modeling for Joint Slot Filling and Intent Prediction.pdf'
 'Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling.pdf'
 'Joint Multiple Intent Detection and Slot Labeling for Goal-Oriented Dialog.pdf'
+Joint semantic utterance classification and slot filling with recursive neural networks
+A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding
