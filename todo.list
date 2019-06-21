@@ -27,3 +27,29 @@ keyword: slot filling intent classification  joint / multi-task
 'Joint Multiple Intent Detection and Slot Labeling for Goal-Oriented Dialog.pdf'
 Joint semantic utterance classification and slot filling with recursive neural networks
 A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding
+
+---
+
+N19-1407.Convolutional Self-Attention Networks
+N19-1122.Modeling Recurrence for Transformer
+
+1. Graph Pattern Entity Ranking Model for Knowledge Graph Completion
+2. COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge
+
+Active Learning for New Domains in Natural Language Understanding
+Jointly+Optimizing+Diversity+and+Relevance+in+Neural+Response+Generation
+stochastic wasserstein autoencoder for probabilistic sentence generation
+Outlier Detection for Improved Data Quality and Diversity in Dialog Systems
+
+1. Differentiable Sequence-to-Sequence-to-Sequence Autoencoder for Unsupervised Abstractive Sentence Compression
+2. Joint Multiple Intent Detection and Slot Labeling for Goal-Oriented Dialog
+
+Keyphrase Generation: A Text Summarization Struggle
+Adversarial Training for Weakly Supervised Event Detection
+Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision
+Zero-Shot Cross-Lingual Opinion Target Extraction
+Adversarial Category Alignment Network for Cross-domain Sentiment Classification
+GAN Driven Semi-distant Supervision for Relation Extraction.
+
+Consistency by Agreement in Zero-shot Neural Machine Translation
+Extract and Edit- An Alternative to Back-Translation for Unsupervised Neural Machine Translation
