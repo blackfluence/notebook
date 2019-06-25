@@ -1,9 +1,13 @@
 
-1. Pretrained LM (Elmo Bert GPT2 XLnet) 
-2. Multi-Task
+
+1. Pretrained LM (Transformer Elmo GPT Bert Ernie GPT2 XLNet)
+2. Multi-Task (Neural machine translation by jointly learning to align and translate 
+   => Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling
+   => Slot-Gated Modeling for Joint Slot Filling and Intent Prediction)
 3. zero-shot learning
 4. Dialoga System
-Zero-shOt Embeddings
+5. Zero-shOt Embeddings
+
 
 
 ---
@@ -14,3 +18,8 @@ https://ai.googleblog.com/search/label/ACL
 
 https://www.youtube.com/watch?v=IzHoNwlCGnE
 http://nlp.seas.harvard.edu/2018/04/03/attention.html
+https://github.com/harvardnlp/annotated-transformer
+
+
+https://ai.googleblog.com/
+http://nlp.seas.harvard.edu/papers/
