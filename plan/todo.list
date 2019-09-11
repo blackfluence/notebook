@@ -1,0 +1,55 @@
+https://arxiv.org/pdf/1901.03407.pdf
+https://arxiv.org/pdf/1701.01325.pdf
+
+'Bidirectional LSTM-CRF Models for Sequence Tagging.pdf'
+'Empower Sequence Labeling with Task-Aware Neural Language Model.pdf'
+'Multi-Task Learning for Sequence Tagging An Empirical Study.pdf'
+'Semi-Supervised Sequence Modeling with Cross-View Training.pdf'
+'Semi-supervised sequence tagging with bidirectional language models.pdf'
+
+A Fast, Extensible Toolkit for Sequence Modeling
+Handling Noisy Labels for Robustly Learning from Self-Training Data for Low-Resource Sequence Labeling
+Better, Faster, Stronger Sequence Tagging Constituent Parsers
+Target-oriented Opinion Words Extraction with Target-fused Neural Sequence Labeling
+Learning Task-Specific Representations in Multi-Task Learning for Sequence Labeling
+Linguistically-Informed Specificity and Semantic Plausibility for Dialogue Generation
+Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification
+Abstractive Summarization of Reddit Posts with Multi-level Memory Networks
+Fast Prototyping a Dialogue Comprehension System for Nurse-Patient Conversations on Symptom Monitoring
+Disentangling Language and Knowledge in Task-Oriented Dialogs
+Neural Self-Training through Spaced Repetition
+Rethinking Action Spaces for Reinforcement Learning in End-to-end Dialog Agents with Latent Variable Models
+Differentiable Sequence-to-Sequence-to-Sequence Autoencoder for Unsupervised Abstractive Sentence Compression
+
+keyword: slot filling intent classification  joint / multi-task
+'Slot-Gated Modeling for Joint Slot Filling and Intent Prediction.pdf'
+'Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling.pdf'
+'Joint Multiple Intent Detection and Slot Labeling for Goal-Oriented Dialog.pdf'
+Joint semantic utterance classification and slot filling with recursive neural networks
+A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding
+
+---
+
+N19-1407.Convolutional Self-Attention Networks
+N19-1122.Modeling Recurrence for Transformer
+
+1. Graph Pattern Entity Ranking Model for Knowledge Graph Completion
+2. COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge
+
+Active Learning for New Domains in Natural Language Understanding
+Jointly+Optimizing+Diversity+and+Relevance+in+Neural+Response+Generation
+stochastic wasserstein autoencoder for probabilistic sentence generation
+Outlier Detection for Improved Data Quality and Diversity in Dialog Systems
+
+1. Differentiable Sequence-to-Sequence-to-Sequence Autoencoder for Unsupervised Abstractive Sentence Compression
+2. Joint Multiple Intent Detection and Slot Labeling for Goal-Oriented Dialog
+
+Keyphrase Generation: A Text Summarization Struggle
+Adversarial Training for Weakly Supervised Event Detection
+Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision
+Zero-Shot Cross-Lingual Opinion Target Extraction
+Adversarial Category Alignment Network for Cross-domain Sentiment Classification
+GAN Driven Semi-distant Supervision for Relation Extraction.
+
+Consistency by Agreement in Zero-shot Neural Machine Translation
+Extract and Edit- An Alternative to Back-Translation for Unsupervised Neural Machine Translation
