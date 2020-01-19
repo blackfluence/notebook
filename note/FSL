@@ -6,4 +6,63 @@ https://openreview.net/pdf?id=HkxLXnAcFQ
 https://arxiv.org/pdf/1904.05046.pdf
 https://arxiv.org/pdf/1803.00676.pdf
 
-绘制FSL分类图(思维导图)
+FSL:
+'A Closer Look at Few-shot Classification.pdf'
+'A Closer Look at Few-shot Classification_note.pdf'
+'Building Machines That Learn and Think Like People.pdf'
+'Feature Space Transfer for Data Augmentation.pdf'
+'Few-shot Autoregressive Density Estimation, Towards Learning to Learn Distributions(combination).pdf'
+'Generalizing from a Few Examples A Survey on Few-Shot Learning.pdf'
+'Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification.pdf'
+'Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks.pdf'
+'Learning to learn by gradient descent by gradient descent.pdf'
+'Learning to learn by gradient descent by gradient descent_not.pdf'
+'Matching Networks for One Shot Learning.pdf'
+'Matching Networks for One Shot Learning_n.pdf'
+'Meta Learning Slide.pdf'
+'Meta Networks.pdf'
+'Meta Networks_note.pdf'
+'Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks.pdf'
+'On First-Order Meta-Learning Algorithms.pdf'
+'On First-Order Meta-Learning Algorithms_.pdf'
+'Online Meta-Learning.pdf'
+'Optimization as a Model for Few-shot Learning.pdf'
+ prototypical-networks-for-few-shot-learning.pdf
+
+autoML:
+'AutoML using Metadata Language Embeddings(workshop).pdf'
+'Ranking architectures using meta-learning(workshop).pdf'
+
+FewRel:
+'Matching the Blanks Distributional Similarity for Relation Learning.pdf'
+'Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification.pdf'
+
+NLP:
+'Few-shot learning with attention-based sequence-to-sequence models(short).pdf'
+'Multi-Level Matching and Aggregation Network for Few-Shot Relation Classification.pdf'
+'Robust Zero-Shot Cross-Domain Slot Filling with Example Values.pdf'
+'Robust Zero-Shot Cross-Domain Slot Filling with Example Values_note.pdf'
+'Zero-Shot Cross-Lingual Abstractive Sentence Summarization through Teaching Generation and Attention.pdf'
+'Zero-Shot Cross-Lingual Abstractive Sentence Summarization through Teaching Generation and Attention_not.pdf'
+
+'some points':
+total 16796
+'Few-shot Learning with Graph Neural Networks.pdf'
+'Gaussian Prototypical Networks for Few-Shot Learning on Omniglot.pdf'
+'Gaussian Prototypical Networks for Few-Shot Learning on Omniglot_note.pdf'
+'Learning to Compare, Relation Network for Few-Shot Learning.pdf'
+'Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks.pdf'
+'Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems.pdf'
+'Meta-learning for semi-supervised few-shot classification.pdf'
+'Neural Turing Machines.pdf'
+'Neural Turing Machines_not.pdf'
+'One-shot Learning with Memory-Augmented Neural Networks.pdf'
+'One-shot Learning with Memory-Augmented Neural Networks_note.pdf'
+'Siamese Neural Networks for One-shot Image Recognition.pdf'
+'Zero-shot Text Classification With Generative Language Models(workshop).pdf'
+
+
+https://blog.csdn.net/langb2014/article/details/84953307
+https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html#define-the-meta-learning-problem
+https://github.com/sudharsan13296/Awesome-Meta-Learning
+https://zhuanlan.zhihu.com/p/51563760
