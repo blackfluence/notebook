@@ -12,3 +12,4 @@ http://www.nlpr.ia.ac.cn/cip/yubochen/publications.html
 
 https://github.com/nlpcl-lab/bert-event-extraction
 https://github.com/benkang-chen/Event-Extraction
+https://github.com/liushulinle/event_detection_without_triggers
