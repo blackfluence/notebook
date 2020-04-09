@@ -1,0 +1,125 @@
+[代理安装]
+pip install --proxy http://username:password@proxyIP:proxyPort sphinx
+pip install --proxy 127.0.0.1:1080 selenium -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+pip install --proxy 127.0.0.1:1080 pickle -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn --default-timeout=300000
+pip install --proxy 127.0.0.1:1080 -r F:/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
+
+pip install --proxy 127.0.0.1:1080 spacy -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn --upgrade
+--proxy https://127.0.0.1:1080 -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com --default-timeout=300000
+
+--proxy 127.0.0.1:1080 -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn --default-timeout=300000
+[镜像安装]
+pip install murmurhash -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+[Python 重新挂载]
+rm /usr/bin/python
+ln -s /usr/local/python2.7/bin/python2.7 /usr/bin/python
+https://www.cnblogs.com/mqxs/p/9103031.html
+
+[pip 配置]
+vim ~/.pip/pip.conf
+
+[global]
+index-url = https://mirrors.aliyun.com/pypi/simple/
+timeout = 300000
+
+[install]
+trusted-host = mirrors.aliyun.com
+proxy = https://127.0.0.1:1080
+
+
+[Conda安装]
+conda install xxx
+
+conda config --add channels xxx
+-> .condarc
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+default_channels:
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+channel_priority: True
+use_pip: True
+proxy_servers:
+  http: 127.0.0.1:1080
+  https: 127.0.0.1:1080
+  
+conda config --set ssl_verify no
+conda install --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/ pytorch-cpu torchvision-cpu -c pytorch
+
+[Conda虚拟环境离线安装]
+conda create -n tensorflow1.14 python=3 --offline
+
+source activate
+source deactivate
+conda activate tensorflow1.14
+conda install pip --offline
+
+[Conda复制虚拟环境]
+conda create -n tf_lite python=3 --clone ~/temp/tf_lite --offline
+conda install -n tf_lite python=3 --offline
+conda install -n tf_lite pip --offline
+
+[nltk 代理下载资源]
+nltk.set_proxy('http://proxy.example.com:3128' ('USERNAME', 'PASSWORD'))
+nltk.download()
+
+[浏览器下载]
+https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/
+
+[百度网盘下载]
+wget -c --referer=http://pan.baidu.com/s/xxxx -O download.file "http://xxxx"
+wget -e "https_proxy=http://109.105.1.254:3128" --no-check-certificate
+
+--------------> Linux
+[whl安装]
+pip install xxx
+conda install xxx
+github下载并解压：
+wget https://github.com/amueller/word_cloud/archive/master.zip
+unzip master.zip
+rm master.zip
+cd word_cloud-master
+安装依赖包：
+sudo pip install -r requirements.txt
+安装wordcloud
+python setup.py install
+
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/ wheel镜像网站
+
+http://pypi.douban.com/simple/ 豆瓣
+http://mirrors.aliyun.com/pypi/simple/ 阿里
+http://pypi.hustunique.com/simple/ 华中理工大学
+http://pypi.sdutlinux.org/simple/ 山东理工大学
+http://pypi.mirrors.ustc.edu.cn/simple/ 中国科学技术大学
+https://pypi.tuna.tsinghua.edu.cn/simple 清华
+
+python setup.py install
+pip install xxx.whl
+easy_install  zope.interface-4.1.2-py2.7-win32.egg
+
+[Git 绑定远程仓库]
+git init
+touch .gitignore
+git add .
+git commit -m 'init project'
+git remote add origin new_address.git
+git push -u origin master
+
+[Git 重新指定远程仓库]
+git remote -v
+git remote set-url origin new_address.git
+
+[Maven skip..]
+mvn clean install -Dmaven.test.skip=true -Dmaven.javadoc.skip=true
+
+[清理Maven目录]
+find . -name "*.lastUpdated" -exec rm -rf {} \;
+
+--[VC Build Tools]-- Not fixed
+关于出现windows没有Build Tools，而报错的问题：
+error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
+下载build tools镜像文件: http://download.microsoft.com/download/4/3/3/4330912d-79ae-4037-8a55-7a8fc6b5eb68/buildtools_full.exe
